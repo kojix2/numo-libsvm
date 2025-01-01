@@ -1,3 +1,20 @@
+# 2.3.0
+- Update bundled LIBSVM to 3.35.
+
+# 2.2.0
+- Update bundled LIBSVM to 3.31.
+
+# 2.1.1
+- Fix build failure with Xcode 14 and Ruby 3.1.x.
+
+# 2.1.0
+- Update bundled LIBSVM to 3.30.
+- Support for probilistic outputs of one-class SVM.
+
+# 2.0.1
+- Chnage to use memcpy to copy vector.
+- Refactor codes and configs with RuboCop.
+
 # 2.0.0
 - Redesign native extension codes.
 - Change not ot use git submodule for LIBSVM codes bundle.
